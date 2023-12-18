@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  .navBar {
+    width: 74%;
+    .navbarCnt {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logoCnt {
+        min-height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a {
+          font-family: Montserrat, sans-serif;
+          font-weight: 700;
+          color: white;
+        }
+        a {
+          display: flex;
+          font-size: 24px;
+        }
+      }
+      .navItemsCnt {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        li {
+          a {
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: white;
+            &:hover {
+              color: #fd784f;
+            }
+          }
+        }
+      }
+    }
+    .numberHeader {
+      width: 29%;
+      min-height: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      p {
+        width: 95%;
+        min-height: 50px;
+        background-color: #fd784f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+      }
+    }
+  }
+}
+#greenStars {
+  width: 100%;
+  height: 715px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/image/8K\ 1080P\,\ 2K\,\ 4K\,\ 5K\ HD\ wallpapers\ free\ download.jpeg);
+  .formcontainer1 {
+    width: 50%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.43);
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      width: 100%;
+      height: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #5bfefd;
+      font-size: 30px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    .inputscontainer1 {
+      width: 75%;
+      height: 80%;
+
+      #myForm1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .inputcnt {
+          width: 100%;
+          height: 15%;
+          input {
+            width: 100%;
+            height: 100%;
+            border: 2px solid #85fdff;
+            background-color: #011730;
+            color: #5bfefebc;
+            &::placeholder {
+              color: #5bfefe52;
+            }
+          }
+        }
+        button {
+          width: 25%;
+          height: 15%;
+        }
+      }
+    }
+  }
+}

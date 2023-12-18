@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #040b1d;
+}
+header .navBar {
+  width: 74%;
+}
+header .navBar .navbarCnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navBar .navbarCnt .logoCnt {
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .navBar .navbarCnt .logoCnt a {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+header .navBar .navbarCnt .logoCnt a {
+  display: flex;
+  font-size: 24px;
+}
+header .navBar .navbarCnt .navItemsCnt {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+header .navBar .navbarCnt .navItemsCnt li a {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+header .navBar .navbarCnt .navItemsCnt li a:hover {
+  color: #fd784f;
+}
+header .navBar .numberHeader {
+  width: 29%;
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header .navBar .numberHeader p {
+  width: 95%;
+  min-height: 50px;
+  background-color: #fd784f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+section {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .productsCnt {
+  width: 95%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+section .productsCnt .miniDiv {
+  width: 31%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+section .productsCnt .miniDiv .imgAndName {
+  width: 100%;
+}
+section .productsCnt .miniDiv .imgAndName img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  min-height: 49px;
+  background-color: #040b1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer span {
+  color: #485165;
+  font-size: 14px;
+}
+footer span a {
+  text-decoration: none;
+}

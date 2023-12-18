@@ -1,0 +1,327 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  .navBar {
+    width: 74%;
+    .navbarCnt {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logoCnt {
+        min-height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a {
+          font-family: Montserrat, sans-serif;
+          font-weight: 700;
+          color: white;
+        }
+        a {
+          display: flex;
+          font-size: 24px;
+        }
+      }
+      .navItemsCnt {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        li {
+          a {
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: white;
+            &:hover {
+              color: #fd784f;
+            }
+          }
+        }
+      }
+    }
+    .numberHeader {
+      width: 29%;
+      min-height: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      p {
+        width: 95%;
+        min-height: 50px;
+        background-color: #fd784f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+      }
+    }
+  }
+}
+#findYourHome {
+  width: 100%;
+  min-height: 703px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg);
+  .blured {
+    width: 100%;
+    min-height: 703px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.129);
+    .findYourHomeTxt {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-size: 98px;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        font-weight: 600;
+      }
+    }
+  }
+}
+#featuredProperties {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 1000px;
+  .clientsTestimonialsTxtHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .orangeLine {
+      color: #fd784f;
+      font-size: 24px;
+      font-weight: 400;
+    }
+    h3 {
+      color: #1e2c4e;
+      font-size: 24px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+    }
+    span {
+      font-family: "Open Sans", sans-serif;
+      color: #b0b1b3;
+      font-weight: 600;
+    }
+  }
+  .prodCnt {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .myDiv {
+      width: 31%;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .imgAndName {
+        width: 100%;
+        min-height: 200px;
+        img {
+          width: 100%;
+        }
+      }
+      .priceAndBtn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        min-height: 200px;
+
+        button {
+          width: 30%;
+          background-color: #040b1d;
+          color: white;
+          border-radius: 15px;
+          &:hover {
+            background-color: white;
+            color: #040b1d;
+          }
+        }
+      }
+    }
+  }
+  .loadMore {
+    background-color: #040b1d;
+    color: white;
+    width: 20%;
+    min-height: 40px;
+    border-radius: 15px;
+    &:hover {
+      background-color: white;
+      color: #040b1d;
+    }
+  }
+}
+#clientsTestimonials {
+  width: 100%;
+  min-height: 755px;
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .clientsTestimonialsTxt {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .clientsTestimonialsTxtHead {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .orangeLine {
+        color: #fd784f;
+        font-size: 24px;
+        font-weight: 400;
+      }
+      h3 {
+        color: white;
+        font-size: 24px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+      }
+      span {
+        font-family: "Open Sans", sans-serif;
+        color: #b0b1b3;
+        font-weight: 600;
+      }
+    }
+    p {
+      text-align: center;
+      width: 65%;
+      color: white;
+      font-size: 18px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 100;
+      line-height: 36px;
+    }
+    .clientsTestimonialsTxtHeadFoot {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        border-radius: 50%;
+      }
+      p {
+        color: #fd784f;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: "Open Sans", sans-serif;
+      }
+      span {
+        color: white;
+        font-size: 13px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+      }
+    }
+  }
+}
+#citiesClientsPrefer {
+  width: 100%;
+  min-height: 654px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/world.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .clientsTestimonialsTxtHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .orangeLine {
+      color: #fd784f;
+      font-size: 24px;
+      font-weight: 400;
+    }
+    h3 {
+      color: #1e2c4e;
+      font-size: 24px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+    }
+    span {
+      font-family: "Open Sans", sans-serif;
+      color: #b0b1b3;
+      font-weight: 600;
+    }
+  }
+  .city {
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/theestate/images/city_1.jpg);
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      min-height: 40px;
+      background-color: #fd784f;
+      color: white;
+    }
+  }
+}
+footer {
+  width: 100%;
+  min-height: 49px;
+  background-color: #040b1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    color: #485165;
+    font-size: 14px;
+    a {
+      text-decoration: none;
+    }
+  }
+}

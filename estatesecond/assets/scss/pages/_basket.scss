@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: #040b1d;
+  .navBar {
+    width: 74%;
+    .navbarCnt {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logoCnt {
+        min-height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a {
+          font-family: Montserrat, sans-serif;
+          font-weight: 700;
+          color: white;
+        }
+        a {
+          display: flex;
+          font-size: 24px;
+        }
+      }
+      .navItemsCnt {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        li {
+          a {
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: white;
+            &:hover {
+              color: #fd784f;
+            }
+          }
+        }
+      }
+    }
+    .numberHeader {
+      width: 29%;
+      min-height: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      p {
+        width: 95%;
+        min-height: 50px;
+        background-color: #fd784f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+      }
+    }
+  }
+}
+section {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .productsCnt {
+    width: 95%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .miniDiv {
+      width: 31%;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .imgAndName {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+footer {
+  width: 100%;
+  min-height: 49px;
+  background-color: #040b1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    color: #485165;
+    font-size: 14px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
